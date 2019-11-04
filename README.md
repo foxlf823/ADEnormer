@@ -9,13 +9,13 @@ We reference several repositories. Highly appreciate!
 * [Multinomial Adversarial Nets](https://github.com/ccsasuke/man)
 * [ELMoForManyLangs](https://github.com/HIT-SCIR/ELMoForManyLangs)
 
-##Setup
+## Setup
 * Install python 3.6, pytorch 1.0.1, nltk and other necessary packages.
 * Compile "PorterStemmer.java"
 * Download all the support files in [dropbox](https://www.dropbox.com/sh/x7sv3tjy960j21o/AABJI838euVffEvKGNzoDdVra?dl=0) and put them in the same directory.
 * Install ELMoForManyLangs
 
-##Usage
+## Usage
 Train a NER model
 
 `
@@ -40,7 +40,7 @@ Test on new unannotated data
 python main_fda.py -norm_rule -norm_vsm -norm_neural -ensemble vote -test_file ./sample -ner_number_normalized -schema BIOHD_1234 -types OSE_Labeled_AE -whattodo 3 -train_file ./sample -dev_file "" -hidden_dim 200 -elmo -char_hidden_dim 50 -nbest 10 -output output -predict predict -config ./config.txt
 `
 
-##Reproduce
+## Reproduce
 Assuming "ose_xml_training_20181101" is the training set and "UnannotatedTestCorpus" is the test set. 
 To reproduce our results using pre-trained models, run
 
