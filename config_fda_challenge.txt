@@ -1,0 +1,13 @@
+elmo_path=./ELMoForManyLangs/elmo_ade_meddra_lower_0norm_200d
+norm_dict=./meddra_dict.txt
+norm_ext_corpus=tac path=./tac_2017_ade/train_xml
+norm_emb=./fasttext_lower_0norm_200d.vec
+norm_rule_resource=./resources
+norm_rule_num=12
+norm_rule_use_trainset=1
+norm_vsm_pretrain=1
+norm_vsm_pretrain_accuracy=99
+norm_neural_pretrain=1
+norm_neural_pretrain_accuracy=99
+norm_ensumble_sum_weight=1 w2=0.6 w3=0.4
+norm_ensumble_sum_weight=2 w1=0.3 w2=0.4 w3=0.3
