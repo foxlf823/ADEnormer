@@ -1,6 +1,6 @@
 # ADEnormer
 This repository contains the code of the system that we used to paticipate the [FDA Adverse Drug Event Evaluation Challenge](https://sites.mitre.org/adeeval/). 
-The system contains two parts, a NER model to identify adverse drug events and a normalization model to map them to the Medical Dictionary for Regulatory Activities ([MedDRA](www.meddra.org)).
+The system contains two parts, a NER model to identify adverse drug events and a normalization model to map them to the Medical Dictionary for Regulatory Activities ([MedDRA](https://www.meddra.org)).
 For more details, please refer to XXX.
 If you have any question, please leave a issue or contact foxlf823@gmail.com
 
